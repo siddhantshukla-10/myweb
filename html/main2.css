@@ -1,0 +1,62 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	text-align: center;
+	background-image: url(wallpaper2you_203736.jpg);
+	}
+h1
+{
+	color:#7cfc00;
+	margin-left:-100px;
+	margin-top: 10px;
+	font-family:'Luckiest Guy', cursive;
+	padding: 20px;
+}
+
+#sidebar
+{
+	color:white;
+	position:fixed;
+	width:200px;
+	height:100%;
+	background: #171819;
+	left: -200px;
+	transition:all 0.5s linear;
+}
+
+#sidebar.active
+{
+	left:0px;
+}
+
+#sidebar ul li
+{
+	font-family: 'Anton', sans-serif;
+	list-style:none;
+	padding: 15px 10px;
+	border-bottom: 1px solid #7cfc00;
+}
+
+#sidebar .toggle-btn
+{
+	position:absolute;
+	left:230px;
+	top:20px;
+}
+
+#sidebar .toggle-btn span
+{
+	display:block;
+	width:30px;
+	height:5px;
+	background:#7cfc00;
+	margin: 5px 0px;
+}
+
+
+
